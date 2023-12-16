@@ -1,0 +1,54 @@
+body {background-color:#f6c043;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80%;
+  }
+
+.div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}  
+
+.p{
+font-size: 40px;
+min-width: 20px;
+text-align: center;
+padding: 10px;
+margin: 5px;
+border: red solid;
+border-radius: 20%;
+background-color: blanchedalmond;
+
+}
+
+#map{
+	background-image: url("mapa_s_kraji.png");
+	width: 1280px;
+	height: 670px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+#point {
+	position: relative;
+	color: brown;
+	font-size: 20px;
+}
+
+
+
+#circle {
+    position: absolute;
+    color: blue;
+    opacity: 0.5;
+    font-size: 50px;
+}
